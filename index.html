@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <div>
+        
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name"></input>
+    </div>
+    <hr>
+    <div>
+    <label for="employed">
+        <input type="checkbox" id="employed">employed
+    </label>
+    </div>
+    <hr>
+    <div>
+        <label for="city">City</label>
+        <select id="city">
+            <option>Karakol</option>
+            <option>Talas</option>
+            <option>Naryn</option>
+            <option>Jalal-Abad</option>
+            <option>Osh</option>
+            <option>Issyk-Kul</option>
+        </select>
+    </div>
+    <hr>
+    <button>Ok</button>
+    <hr>
+    <div id="example"></div>
+    <div id="exx"></div>
+</form>
+
+  
+  <h2>Toggle Dark/Light Mode</h2>
+  <p>Click the button to toggle between dark and light mode for this page.</p>
+  
+  
+Vybery fon <br><br>
+<input onclick="myFunctiond2()" type="radio">Black fon <br>
+<input onclick="myFunction()" type="radio">kosmos <br>
+<input onclick="myFunctiond()" type="radio">Parij <br>
+<input onclick="myFunctiond1()" type="radio">Yarki fon
+
+
+
+  <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  function myFunctiond() {
+     var element = document.body;
+     element.classList.toggle("dark-model");
+  }
+  function myFunctiond1() {
+     var element = document.body;
+     element.classList.toggle("dark-model1");
+  }
+  function myFunctiond2() {
+     var element = document.body;
+     element.classList.toggle("dark-model2");
+  }
+  </script>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
